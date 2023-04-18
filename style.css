@@ -114,20 +114,10 @@ article p {
 	text-align: center;
 }
 
-.read-more {
-	background-color: #4CAF50;
-	color: #fff;
-	padding: 10px 20px;
-	border-radius: 30px;
-	font-weight: bold;
-	font-size: 1.2em;
-	text-decoration: none;
-}
 
-.read-more:hover {
-	background-color: #fff;
-	color: #4CAF50;
-}
+
+
+
 
 /* Footer styles */
 footer {
@@ -324,12 +314,8 @@ body {
 	padding: 10px;
   }
   
-  /* Media queries */
-  @media (max-width: 600px) {
-	main {
-	  padding: 10px;
-	}
-  }
+  
+  
   /* Header styles */
 header {
 	background-color: #0099cc;
