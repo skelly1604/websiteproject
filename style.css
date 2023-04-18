@@ -268,20 +268,10 @@ article img {
     margin-bottom: 20px;
 }
 
-.read-more {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #00b4db;
-    color: #fff;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
 
-.read-more:hover {
-    background-color: #0077b6;
-}
+
+
+
 /* Global styles */
 body {
 	font-family: Arial, sans-serif;
@@ -342,7 +332,7 @@ body {
   }
   /* Header styles */
 header {
-	background-color: #333;
+	background-color: #0099cc;
 	color: #fff;
 	text-align: center;
 	padding: 20px;
