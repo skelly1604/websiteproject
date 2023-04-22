@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <ul id ="container">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="climate.html">Climate</a></li>
+		<li><a href="deforest.html">Deforestation</a></li>
+		<li><a href="pollution.html">Pollution</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	  </ul>
     <title>Contact Form</title>
     <style>
       body {
@@ -37,6 +44,7 @@
     </style>
   </head>
   <body>
+    
     <form action="submit.php" method="post">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
@@ -52,5 +60,10 @@
 
       <input type="submit" value="Submit">
     </form>
+    <div class="map-container">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2462633.692474155!2d-4.1818510054106435!3d52.93194431227181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d0eb408105%3A0x43dd1b9bad2be7b0!2sThe%20Global%20Warming%20Policy%20Foundation!5e0!3m2!1sen!2sie!4v1682202573079!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </iframe>
   </body>
 </html>
